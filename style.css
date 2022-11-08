@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.home{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    position: absolute;
+}
+
+.home .title{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    margin: 0px 15vw;
+    width: 100vw;
+}
+
+.home span{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+}
+
+#left-place{
+    background-color: #eb6123;
+    z-index: 1;
+}
+
+#left-place .title{
+    color: rgb(0, 0, 0);
+}
+
+#left-place span{
+    color: rgb(255, 255, 255);
+}
+
+#right-place{
+    background-color: black;
+}
+
+#right-place .title{
+    color: white;
+}
+
+#right-place span{
+    color: #eb6123;
+}
