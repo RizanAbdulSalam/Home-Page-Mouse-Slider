@@ -6,4 +6,4 @@ let sliding = e => {
 }
 
 document.onmousemove = e => sliding(e);
-document.ontouchmove = e => sliding(e.touches[0]);
+document.ontouchmove = e => sliding(e.touches[0]); 
